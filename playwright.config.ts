@@ -7,5 +7,5 @@ export default defineConfig({
     actionTimeout: 5000,
     baseURL: 'http://demowebshop.tricentis.com',
   },
-  testDir: './tests',
+  testDir: './Tests',
 });
