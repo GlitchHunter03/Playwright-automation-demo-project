@@ -96,7 +96,7 @@ test.describe('E-commerce Functionality Tests', () => {
 
     const cartItem = cartItems.first();
 
-    // Debugging: Output cart item structure if needed
+   
     const cartItemHTML = await cartItem.innerHTML();
     console.log("Cart Item HTML:\n", cartItemHTML);
 
@@ -117,14 +117,6 @@ test.describe('E-commerce Functionality Tests', () => {
     expect(cartProductTitle?.trim()).toBe(productTitle?.trim());
     expect(cartProductPrice?.trim()).toBe(productPrice?.trim());
   });
-
-
-
-
-
-
-
-
 
 
 });
